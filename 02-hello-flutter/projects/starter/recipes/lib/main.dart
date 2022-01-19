@@ -15,6 +15,7 @@ class RecipeApp extends StatelessWidget {
     return MaterialApp(
       title: 'Recipe Calculator',
       theme: theme.copyWith(
+        appBarTheme: theme.appBarTheme.copyWith(centerTitle: true),
         colorScheme: theme.colorScheme
             .copyWith(primary: Colors.grey, secondary: Colors.black),
       ),
