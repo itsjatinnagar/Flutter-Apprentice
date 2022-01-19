@@ -11,6 +11,12 @@ We’ve set up an official forum for the book at [https://forums.raywenderlich.c
 ## Release History
 
 | Branch                                                                            | Edition | Release Date |
-| --------------------------------------------------------------------------------- |:-------:|:------------:|
-| [editions/1.0](https://github.com/raywenderlich/flta-materials/tree/editions/1.0) | 1.0     | 2021-06-02   |
-| [editions/2.0](https://github.com/raywenderlich/flta-materials/tree/editions/2.0) | 2.0     | 2021-10-06   |
+| --------------------------------------------------------------------------------- | :-----: | :----------: |
+| [editions/1.0](https://github.com/raywenderlich/flta-materials/tree/editions/1.0) |   1.0   |  2021-06-02  |
+| [editions/2.0](https://github.com/raywenderlich/flta-materials/tree/editions/2.0) |   2.0   |  2021-10-06  |
+
+## My Learning
+
+### Chapter - 2.Hello Flutter
+
+In this chapter I've learned how to create flutter app with `flutter create` and give flutter app own styling and create classes and dummy data use that to create a simple but functional app. Also, most new to me is **Slider** widget and how to use it inside a flutter app.
