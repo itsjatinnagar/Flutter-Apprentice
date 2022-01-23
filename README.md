@@ -20,3 +20,7 @@ We’ve set up an official forum for the book at [https://forums.raywenderlich.c
 ### Chapter - 2.Hello Flutter
 
 In this chapter I've learned how to create flutter app with `flutter create` and give flutter app own styling and create classes and dummy data use that to create a simple but functional app. Also, most new to me is **Slider** widget and how to use it inside a flutter app.
+
+### Chapter - 3.Basic Widgets
+
+In this chapter I've learned about lots of flutter widgets which I don't know about earlier like: (_RotatedBox_, _Chip_, _Stack_, _Positioned_, _Wrap_). I get to know about how to define app-wide theme/styling and I also came across some best practises on code formatting and file structuring. Also I got my head around **Stack** and **Positioned** a lot. The most important thing I learned is how to see different components of the design as a collection of widgets nested and grouped together.
