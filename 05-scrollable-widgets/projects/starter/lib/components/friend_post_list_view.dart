@@ -18,11 +18,15 @@ class FriendPostListView extends StatelessWidget {
       padding: const EdgeInsets.only(
         left: 16.0,
         right: 16.0,
-        top: 0,
+        // top: 0,
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Social Chefs 👩‍🍳'),
+          Text(
+            'Social Chefs 👩‍🍳',
+            style: Theme.of(context).textTheme.headline1,
+          ),
           const SizedBox(height: 16),
           ListView.separated(
             primary: false,
