@@ -24,3 +24,13 @@ In this chapter I've learned how to create flutter app with `flutter create` and
 ### Chapter - 3.Basic Widgets
 
 In this chapter I've learned about lots of flutter widgets which I don't know about earlier like: (_RotatedBox_, _Chip_, _Stack_, _Positioned_, _Wrap_). I get to know about how to define app-wide theme/styling and I also came across some best practises on code formatting and file structuring. Also I got my head around **Stack** and **Positioned** a lot. The most important thing I learned is how to see different components of the design as a collection of widgets nested and grouped together.
+
+### Chapter - 4.Understanding Widgets
+
+In this chapter I've learned about _three trees_ in Flutter - Widget, Element and RenderObject. I also learnt how to debug a Flutter App using _Flutter Inspector_ and _Dart DevTools_ and about the features they offer for debugging. I also converted AuthorCard widget which is a part of Chapter - 3 into a **Stateful Widget** so that user can interact with the favorite button.
+
+**Key Points**
+
+- Widget Tree - It consists of all the UI components and most of the times developer use them only.
+- Element Tree - It acts as a Middleman between Widget and RenderObject and for every widget in flutter there is a corresponding element in flutter app.
+- RenderObject - It is responsible for drawing the app on the mobile screen.
