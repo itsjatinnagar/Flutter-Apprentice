@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fooderlich/components/friend_post_tile.dart';
 
 import '../models/models.dart';
 import 'components.dart';
@@ -18,7 +17,7 @@ class FriendPostListView extends StatelessWidget {
       padding: const EdgeInsets.only(
         left: 16.0,
         right: 16.0,
-        // top: 0,
+        top: 0,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

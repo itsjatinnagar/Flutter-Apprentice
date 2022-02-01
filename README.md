@@ -34,3 +34,14 @@ In this chapter I've learned about _three trees_ in Flutter - Widget, Element an
 - Widget Tree - It consists of all the UI components and most of the times developer use them only.
 - Element Tree - It acts as a Middleman between Widget and RenderObject and for every widget in flutter there is a corresponding element in flutter app.
 - RenderObject - It is responsible for drawing the app on the mobile screen.
+
+### Chapter - 5.Scrollable Widgets
+
+There's a lot that I have learned in this chapter so I would like to list them down in points:
+
+- It is always best to spread your code across seperate files and folders.
+- Make some (also called Barrel files) files that export other files of same type (using **export** keyword) like for: components, models, screens and etc. This makes number of imports for same type less.
+- I will get an idea of fetching data from local json files using _DefaultAssetBundle_ and _rootBundle_ and also differences between them.
+- Learned about ListView and GridView.
+- Uses the concept of Nested ListViews and uses different properties to control and prefer their scroll.
+- **FutureBuilder** is most important widget (according to me) which I've learned in this chapter. It makes the handling of data that is coming in future (means data coming after an unknown delay) a lot easier and also takes care of different states of data.
